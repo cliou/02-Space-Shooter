@@ -2,7 +2,7 @@ extends Control
 
 
 func _ready():
-  $Label.text = "Good Job! Space explorer! Your final score was " + str(Global.score) + "."
+  $Label.text = "Mission incomplete! Space explorer! You can restart, but be careful this time. Your final score was " + str(Global.score) + "."
 
 
 func _on_Play_pressed():
